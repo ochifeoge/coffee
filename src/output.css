@@ -918,10 +918,6 @@ video {
   font-family: "Playfair Display", serif;
 }
 
-.text-10xl {
-  font-size: 220px;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -930,6 +926,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-\[20px\] {
@@ -956,10 +957,6 @@ video {
 
 .leading-7 {
   line-height: 1.75rem;
-}
-
-.leading-\[210px\] {
-  line-height: 210px;
 }
 
 .text-black {
@@ -1161,5 +1158,13 @@ video {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:text-10xl {
+    font-size: 220px;
+  }
+
+  .lg\:leading-\[210px\] {
+    line-height: 210px;
   }
 }

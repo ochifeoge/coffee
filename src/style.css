@@ -15,9 +15,6 @@ header {
   background-position: center;
   background-size: cover;
 }
-/* footer {
-  background: linear-gradient(rgba(96, 56, 9, 1), rgba(96, 56, 9, 0.9));
-} */
 #footer-one {
   background: linear-gradient(rgba(96, 56, 9, 1), rgba(96, 56, 9, 0.7) 80%),
     url("../media/Rectangle14.png");
