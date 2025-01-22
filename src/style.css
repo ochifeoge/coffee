@@ -1,0 +1,32 @@
+header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(../media/coffee_image.png);
+  background-position: center;
+  background-size: cover;
+  color: rgb(96, 56, 9);
+}
+#rec {
+  background: linear-gradient(
+      to bottom right,
+      rgba(96, 56, 9, 0.9),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../media/Rectangle 14.png");
+  background-position: center;
+  background-size: cover;
+}
+/* footer {
+  background: linear-gradient(rgba(96, 56, 9, 1), rgba(96, 56, 9, 0.9));
+} */
+#footer-one {
+  background: linear-gradient(rgba(96, 56, 9, 1), rgba(96, 56, 9, 0.7) 80%),
+    url("../media/Rectangle14.png");
+  background-position: center;
+  background-size: cover;
+}
+footer section {
+  background: linear-gradient(rgba(96, 56, 9, 0.6), rgba(96, 56, 9, 0.8) 80%),
+    url("../media/fotter_image.png");
+  background-position: center;
+  background-size: cover;
+}

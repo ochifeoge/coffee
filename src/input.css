@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply px-4 py-2 bg-activeBrown text-brown font-bold mx-auto self-start rounded-full;
+}
+.btn2 {
+  @apply px-4 py-2 bg-activeBrown text-brown font-bold  rounded-full;
+}
+.heading {
+  @apply font-bold text-5xl text-brown;
+}
+.headingW {
+  @apply font-bold text-5xl text-white;
+}
+.rBasis {
+  @apply basis-full md:basis-2/4 lg:basis-1/4 !important;
+}
+.logo {
+  @apply text-5xl  font-clickerScript leading-[46px] capitalize;
+}
